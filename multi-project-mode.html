@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Multi-Project Mode: | Tutorial For CPT Tool</title>
+  <meta name="description" content="This is the prototype for SCA CPT Tool tutorial." />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Multi-Project Mode: | Tutorial For CPT Tool" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the prototype for SCA CPT Tool tutorial." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Multi-Project Mode: | Tutorial For CPT Tool" />
+  
+  <meta name="twitter:description" content="This is the prototype for SCA CPT Tool tutorial." />
+  
+
+<meta name="author" content="Jiangdong Liu" />
+
+
+<meta name="date" content="2020-03-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="single-project-mode.html"/>
+<link rel="next" href="advanced-options-for-multi-project-mode.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">CPT tutorial</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Intended Use</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="cpt-opening-page.html"><a href="cpt-opening-page.html"><i class="fa fa-check"></i><b>3</b> CPT Opening Page:</a><ul>
+<li class="chapter" data-level="3.1" data-path="cpt-opening-page.html"><a href="cpt-opening-page.html#video"><i class="fa fa-check"></i><b>3.1</b> Video</a></li>
+<li class="chapter" data-level="3.2" data-path="cpt-opening-page.html"><a href="cpt-opening-page.html#written-documents"><i class="fa fa-check"></i><b>3.2</b> Written documents</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="selection-of-project-footprint-page.html"><a href="selection-of-project-footprint-page.html"><i class="fa fa-check"></i><b>4</b> Selection of Project Footprint Page:</a><ul>
+<li class="chapter" data-level="4.1" data-path="selection-of-project-footprint-page.html"><a href="selection-of-project-footprint-page.html#video-1"><i class="fa fa-check"></i><b>4.1</b> Video</a></li>
+<li class="chapter" data-level="4.2" data-path="selection-of-project-footprint-page.html"><a href="selection-of-project-footprint-page.html#written-documents-1"><i class="fa fa-check"></i><b>4.2</b> Written documents</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="single-project-mode.html"><a href="single-project-mode.html"><i class="fa fa-check"></i><b>5</b> Single-Project Mode:</a><ul>
+<li class="chapter" data-level="5.1" data-path="single-project-mode.html"><a href="single-project-mode.html#video-2"><i class="fa fa-check"></i><b>5.1</b> Video</a></li>
+<li class="chapter" data-level="5.2" data-path="single-project-mode.html"><a href="single-project-mode.html#written-documents-2"><i class="fa fa-check"></i><b>5.2</b> Written documents</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="multi-project-mode.html"><a href="multi-project-mode.html"><i class="fa fa-check"></i><b>6</b> Multi-Project Mode:</a><ul>
+<li class="chapter" data-level="6.1" data-path="multi-project-mode.html"><a href="multi-project-mode.html#video-3"><i class="fa fa-check"></i><b>6.1</b> Video</a></li>
+<li class="chapter" data-level="6.2" data-path="multi-project-mode.html"><a href="multi-project-mode.html#written-documents-3"><i class="fa fa-check"></i><b>6.2</b> Written documents</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="advanced-options-for-multi-project-mode.html"><a href="advanced-options-for-multi-project-mode.html"><i class="fa fa-check"></i><b>7</b> Advanced options for Multi-project mode:</a><ul>
+<li class="chapter" data-level="7.1" data-path="advanced-options-for-multi-project-mode.html"><a href="advanced-options-for-multi-project-mode.html#video-4"><i class="fa fa-check"></i><b>7.1</b> Video</a></li>
+<li class="chapter" data-level="7.2" data-path="advanced-options-for-multi-project-mode.html"><a href="advanced-options-for-multi-project-mode.html#written-documents-4"><i class="fa fa-check"></i><b>7.2</b> Written documents</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="http://www.landscope.org/gulfcoast" target="blank">Learn more about SCA Project</a></li>
+<li><a href="https://scagulf.shinyapps.io/CPTp1/" target="blank">Learn more about CPT Tool</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Tutorial For CPT Tool</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="multi-project-mode" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Multi-Project Mode:</h1>
+<div id="video-3" class="section level2">
+<h2><span class="header-section-number">6.1</span> Video</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNzZ1PfUDNk" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="written-documents-3" class="section level2">
+<h2><span class="header-section-number">6.2</span> Written documents</h2>
+<p>Once you have selected your AOIs, you will be taken a new page called ‘Data Overview’ where you will see the raw values for each ecological/socioeconomic measure, organized by RESTORE Goal. From here you will have three options to move forward: ‘Default Results’, ‘Choose my own weights’, or ‘simulate random weights’.
+If you select ‘Show Default Results’ you will be taken to a new window that shows the overall scores and goal-specific scores of each AOI, assuming all RESTORE goals are equally weighted (i.e. all at 20%). To return to the main menu, click ‘Return to Main Menu’ button located on the right side of the screen, and to select different weights for your AOI comparison, click the ‘If you would like to alter weights in your comparison’ button, also located in the right side of the screen.<br />
+If you select ‘Choose my own weights’, you will be taken to a new screen to adjust the weights for the RESTORE Goals, and then for each measure within the RESTORE Goals. You can adjust each goal weight by adjusting the slider bar or numeric input box next to each goal. A summary of all goal weights is visible in a table to the right of the screen, with the total sum at the bottom of the table. The sum of all weights must equal 100%. Once all goal weights are at their desired values, click the ‘Finalize Weights for Goals’ button located underneath the goal weights summary table. You will then be taken to a new window to select weights for each measure, organized by each RESTORE Goal under separate tabs. Simply select low, medium, high, or zero as weights for each measure (each measure is pre-selected to medium), and after you have gone through each measure, you will be taken to a final tab labeled ‘Weights review’, where you can view a table of all measures and their selected weights for your comparison. Click the ‘Finalize Weights’ button and you will be taken to a results page that shows the overall scores and goal-specific scores of each AOI given the user-selected weights.<br />
+On the results page you will then have the option to download a summarized report of your AOI comparisons by clicking the ‘Generate Detailed Report’ button, located underneath the summary table. You can also click the ‘Download Spatial Footprint’ button, also located underneath the summary table, to download the shapefiles of each AOI.
+If you select ‘Simulate Random Weights’, a pop-up window will appear that says ‘Please give up to 5 minutes for the model to run. This model will run 10,000 iterations through MCDA model. Meanwhile, please do not make changes to the application.’ Click ‘OK’ in the pop-up window to continue with the random weight simulation. When the simulation has started, a new pop-up window will appear alerting you of it beginning, and a progress bar will appear to show you how many iterations are left before the simulation is complete. When the simulation is complete, you will automatically be taken to the ‘Results’ tab, where you will see the Rank acceptability graphs for each AOI, and the Central Weights Vector graph. To see the rank acceptability graph for a different AOI, select from the dropdown menu above the pie charts labeled ‘Select a proposal’. To learn more about how to interpret Central Weight Vectors, click the ‘How can I use Central Weights’ button to download a pdf document that contains more information. You also have the option to download a summarized report of your AOI comparisons by clicking the ‘Generate Detailed Report’ button, located in the center of the page. You can also click the ‘Download Spatial Footprint’ button, also located in the center of the page, to download the shapefiles of each AOI.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="single-project-mode.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="advanced-options-for-multi-project-mode.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-cl.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
